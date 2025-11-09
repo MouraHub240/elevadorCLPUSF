@@ -63,6 +63,18 @@
         border: 2px solid #2a5298;
     }
 
+    .img-lado {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .img-lado img {
+        width: 45%;
+        max-width: 400px;
+    }
+
     p {
         text-align: justify;
         margin: 15px 0;
@@ -81,7 +93,7 @@
         section {
             padding: 20px;
         }
-        img {
+        .img-lado img {
             width: 100%;
         }
     }
@@ -147,6 +159,31 @@
     <p>
         É importante citar a lógica de retorno de funcionamento do protótipo após uma parada, que aciona um botão de fora e o de dentro
         para chegar em qualquer um dos fins de curso.
+    </p>
+
+    <h2>Passo 3 - Montagem do Protótipo</h2>
+    <div class="img-lado">
+        <img src="imagens/estrutura.jpeg" alt="Estrutura inicial do protótipo do elevador">
+        <img src="imagens/construcao.jpeg" alt="Construção do protótipo do elevador com botões e fiação">
+    </div>
+    <p>
+        Junto ao desenvolvimento do código, o grupo deu início à confecção da parte física do protótipo (realizada com fibra de vidro),
+        utilizando-se dos botões e potenciômetro separadamente do elevador, para melhor interação com o funcionamento do projeto.
+        Os fins de curso foram instalados nas duas extremidades verticais da estrutura, junto à fixação de uma vara roscada que atravessava toda a maquete
+        no motor DC instalado na parte superior. O elevador consegue se mover pelas porcas soldadas atrás do mesmo,
+        que permitiram a locomoção pela rosca em todo o trajeto.
+    </p>
+
+    <h2>Passo 4 - Testes e Finalização do Projeto</h2>
+    <div class="img-lado">
+        <img src="imagens/projeto.jpeg" alt="Protótipo completo conectado ao CLP">
+        <img src="imagens/entradasCLP.jpeg" alt="Conexões de cabos e entradas no CLP ZAP">
+    </div>
+    <p>
+        Por fim, com todos os passos anteriores realizados, os testes começaram e foram verificados com êxito,
+        sem problemas de conexão entre o CLP e o protótipo, utilizando da parte de trás do CLPZAP para melhor ligação da parte de cabos do sistema,
+        alimentando os relés e toda parte de comando, o que garante também a parte estética da apresentação.
+        O projeto atendeu as expectativas planejadas desde o começo, mas sempre é possível pensar em melhorias futuras para o sistema de elevador CLP.
     </p>
 </section>
 
